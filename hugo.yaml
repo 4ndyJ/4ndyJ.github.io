@@ -33,3 +33,6 @@ markup:
     lineNumbersInTable: false
     noClasses: false
     guessSyntax: true
+
+baseURL: 'https://4ndyJ.github.io/qubt'
+title: 'Qubt Theme'
