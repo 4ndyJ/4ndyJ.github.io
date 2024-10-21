@@ -4,7 +4,7 @@
 
 main:
 - name: "Home"
-  url: "/""
+  url: "/"
   weight: 10
 - name: "Research"
   url: "/research/"
