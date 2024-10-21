@@ -1,1 +1,16 @@
 
+############################
+## CHANGE THESE
+############################
+
+baseURL: 'https://4ndyJ.github.io/home'
+title: 'Andrew James'
+
+############################
+## MISC
+############################
+
+enableEmoji: true
+disableKinds: ['taxonomy', 'term']
+languageCode: 'en-us'
+enableRobotsTXT: true
