@@ -3,8 +3,8 @@
 ############################
 
 author:
-  name: "Qubt"
-  image: author.png
+  name: "Andrew James"
+  image: "image"
   greeting: "A personal blog theme for Hugo :evergreen_tree:"
   icon: ":wave:"
 
