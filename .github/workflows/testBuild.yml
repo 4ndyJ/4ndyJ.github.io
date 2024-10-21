@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-deploy: 
-    name: Test Build exampleSite
+    name: Test Build website
     runs-on: ubuntu-24.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -33,5 +33,5 @@ jobs:
           extended: true
           
       - name: Build
-        working-directory: ./exampleSite
+        working-directory: ./website
         run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/qubt/
