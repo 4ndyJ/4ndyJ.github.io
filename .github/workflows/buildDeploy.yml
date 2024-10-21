@@ -51,13 +51,13 @@ jobs:
           extended: true
           
       - name: Build
-        working-directory: ./exampleSite
+        working-directory: ./website
         run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/qubt/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./exampleSite/public
+          path: ./website/public
 
   # Deployment job
   deploy:
