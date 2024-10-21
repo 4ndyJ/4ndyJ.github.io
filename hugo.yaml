@@ -34,5 +34,5 @@ markup:
     noClasses: false
     guessSyntax: true
 
-baseURL: 'https://4ndyJ.github.io'
-title: 'Andrew James test'
+# baseURL: 'https://4ndyJ.github.io'
+# title: 'Andrew James test'
