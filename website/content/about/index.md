@@ -1,6 +1,3 @@
----
-    title: About
----
 
 
 # This will be my about section
